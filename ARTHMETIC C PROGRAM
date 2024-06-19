@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{ 
+int a=5;
+int b=8;
+int cal=0;
+
+\\scanf("%d,%d\n",a,b);
+
+printf("a is %d and b is %d\n", a,b);
+
+cal = a + b;
+printf("a + b is %d\n", cal);
+
+cal = a - b;
+printf("a - b is %d\n", cal);
+
+cal = a * b;
+printf("a * b is %d\n", cal);
+
+cal = a / b;
+printf("a / b is %d\n", cal);
+
+cal = a % b;
+printf("a %% b is %d\n", cal);
+
+return 0;
+}
