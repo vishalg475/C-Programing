@@ -1,0 +1,37 @@
+ 1.Write a c program for Mr.Batra's purchased a new SUV, whose showroom price was Rs. 3509438. He spent 350944 on road tax, Rs.160723 on insurance and Rs. 85985 on Accessories. 
+ Find the total amount paid by Mr. Batra's for the SUV.
+
+ soln:-
+ #include <stdio.h>
+ int main()
+ {
+ int showroom_price = 3509438;
+ int road_tax = 350944;
+ int insurance = 160723;
+ int accessories = 85985;
+ int total_cost;
+
+ total_cost = showroom_price+road_tax+insurance+accessories;
+
+ printf("Mr.Batra's SUV COST: %d", total_cost);
+ return 0;
+ }
+
+
+ 2. Write a c program for In a City, there are three cold storage. One cold storage can store 436585KG potatoes, Second cold storage can store 225650 KG potatoes and third cold
+ storage can store 289765KG potatoes. Find the total storage capacity of all the three cold storage.
+
+ soln:
+
+#include <stdio.h>
+int main() 
+{
+int storage1 = 436585;
+int storage2 = 225650;
+int storage3 = 289765;
+
+int total_storage = storage1+storage2+storage3;
+
+printf("Total Storage capacity of all three cold Storage is: %d KG\n", total_storage);
+return 0;
+} 
