@@ -1,0 +1,109 @@
+WHAT IS C PROGRAMMING???
+
+C is a General-Purpose Programming Language created by Dennis Ritchie at the Bell Laboraties in 1972.
+C is Very fast, Compared to other programming languages, like Java and Python.
+It can be used in both Applications and Technologies.
+
+ADVANTAGES OF C PROGRAMMING?
+*Easy to write and understand
+*Quick Compilation
+
+WHAT ARE VARIABLES?
+Variables are Containers for storing data values, like numbers and characters.
+
+BASIC DATA TYPES:
+
+The Data type Specifies the size and type of information the variable will store.
+DATA TYPES:-
+
+int   stores Whole numbers
+
+float  Stores decimal Values
+Double  Stores Upto 15 Decimal Numbers
+Char  Stores a Single Character/Letter/Name
+
+FORMAT SPECIFIERS:
+There are different Format Specifiers for each data type.
+
+FORMAT SPECIFIER          DATA TYPE
+
+%d, %i                    int
+%f, %F                    float
+%Lf                       double
+%c                        char
+
+IF SYNTAX
+
+if(condition) {
+// content
+}
+Example :-
+if (20>18){
+printf("20 is greater than 18");
+}
+
+ELSE STATEMENT:
+if(condition) {
+printf(content)
+}
+else {
+printf(content)
+}
+Example:-
+
+int time=20;
+if(time<18){
+printf("Good Day");
+} else {
+printf("Good Evening");
+}
+
+ELSE IF STATEMENT :
+Use the else if statement to specify a new condition if the first condition is false;
+
+if(Condition){
+printf(content)
+} else if (condition2) {
+printf(content)
+} else {
+printf(content)
+}
+
+NESTED IF ELSE :
+A Nested if else statement is an if statement inside another if statement. The General Syntax of nested if-else Statement in C is as Follows:-
+
+if(condition1){
+/*code to be executed if condition1 is true*/
+if(condition2){
+/*code to be executed if condition2 is true*/
+}else{
+/*code to be executed if condition2 is false*/
+}
+}else{
+/*code to be executed if condition1 is false*/
+}
+
+FOR LOOP STATEMENT :
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+Syntax:-
+for (expression1; expression2; expression3)
+{
+code block to be executed
+}
+
+WHILE LOOP STATEMENT:
+The while loop loops through a block of codes as long as a specified condition is true:
+
+Syntac:
+
+While(condition){
+//code block to be executed.
+}
+
+GENERAL RULES FOR NAMING VARIABLES ARE:-
+Names can contain letters, digits and Underscores
+Names Must begin with a ladder or a underscore(_)
+Names cannot contain Whitespaces or Special Characters like !,#,%,etc..,
+Reserved words (such as int)cannot be used as names.
+
+
