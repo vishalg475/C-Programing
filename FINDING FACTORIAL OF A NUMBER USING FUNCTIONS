@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+result();
+return 0;
+}
+void result()
+{
+int n=6;
+int result = 1,i;
+
+for (i = 2;i <= n; i++)
+{
+result *= i;
+}
+printf("Factorial of %d is %d", n,result);
+}
