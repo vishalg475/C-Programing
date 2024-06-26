@@ -1,0 +1,16 @@
+#include<Stdio>
+void add(int a,int b);
+
+int main()
+{
+int a=10,b=20,c;
+add(a,b);
+return 0;
+}
+
+void add(int a,int b)
+{
+int c;
+c=a+b;
+printf("%d\n",c);
+}
